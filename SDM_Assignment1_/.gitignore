@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Debug and log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs
+*.log
+
+# Docker development artifacts
+.dockerignore
+Dockerfile.dev
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing and Coverage
+coverage/
+.nyc_output
+
+# Build/Dist outputs (if you switch to TypeScript later)
+dist/
+build/
